@@ -18,6 +18,16 @@
     border-radius: 10px;
     border: none;
     padding: 12px 36px;
+    transition: all 0.5s ease;
+}
+.btn-primary:hover{
+    font-size: 18px;
+    color:#4E47FF;
+    background-color: white;
+    border: 1px solid #4E47FF;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.221);
+    transform: scale(1.1); 
 }
 /* header style */
 .header{
