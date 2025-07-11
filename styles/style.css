@@ -169,3 +169,34 @@ body{
  .user-info h5,p{
     margin: 0px;
  }
+ /* form section started */
+ .form-section{
+    display: flex;
+    align-items: center;
+    gap: 115px;
+    margin: 0px 150px;
+ }
+ .form-heading{
+    width: 50%;;
+ }
+ .form-heading h2{
+    font-size: 80px;
+    font-weight: bold;
+ }
+ .main-form label{
+    font-size: 18px;
+    font-weight: 500;
+ }
+.main-form{
+    width: 50%;
+}
+ input[type="email"],input[type="text"],textarea{
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px ;
+    border: none;
+ }
+ .main-form button{
+    width: 100%;
+ }
