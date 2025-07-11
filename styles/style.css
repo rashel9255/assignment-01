@@ -229,3 +229,6 @@ main{
     text-decoration: none;
     color: #8987A1;
  }
+.footer-navmenu li a:hover{
+   color: blue;
+}
